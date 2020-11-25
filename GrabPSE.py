@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-
 # The getPSEStockData function scrapes data of off Investagrams.com,
 # converts the data into a dataframe,
 # and exports it as a CSV file.
