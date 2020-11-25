@@ -2,8 +2,21 @@
 
 GrabPSE runs a Python Script that scrapes data off Investagrams.com and saves essential price data of Philippine Stock Exchange listed companies in a CSV file.
 
-# Example
-Upon the execution of the GrabPSE.py script, a CSV containing data of a stock will exported.  Data below is from DITO CME Holdings Corporation ($DITO).
+# Getting Started
+Prerequisites
+> * BeautifulSoup
+>>`pip3 install beautifulsoup`
+> * Pandas
+>>`pip3 install pandas`
+
+
+
+# Usage
+Upon the execution of the GrabPSE.py script, a prompt is given asking for the Philippine Stock Exchange listed company's stock ticker. 
+
+
+
+After receiving an appropriate response, a comma separated value file containing the price data of a stock will exported.  Data below is from DITO CME Holdings Corporation ($DITO) covering 3 days of trading.
 
 |     | Date       | Last Price |     Change    |   %Change | Open | Low| High| Volume| Net Foreign|
 | --- |:----------:| :--------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
@@ -13,16 +26,16 @@ Upon the execution of the GrabPSE.py script, a CSV containing data of a stock wi
 
 
 # Run Locally
-Run this command `git clone https://github.com/vaughnfajardo/GrabPSE`
+* Run this command `git clone https://github.com/vaughnfajardo/GrabPSE`
+* Proceed to the repository's folder `cd GrabPSE`
+* Run the Python Script `python3 GrabPSE.py`
 
-Proceed to the repository's folder `cd GrabPSE`
+# License
+Distributed under the MIT License. See `LICENSE` for more information.
 
-Run the Python Script `python3 GrabPSE.py`
-
-# Meta
+# Contact
 Vaughn Fajardo – @vaughnfajardo_ – vaughnnephifajardo@gmail.com
 
-Distributed under the MIT license. See LICENSE for more information.
 
 https://github.com/vaughnfajardo/GrabPSE
 
