@@ -1,6 +1,6 @@
 # GrabPSE
 
-GrabPSE runs a Python Script that scrapes data off Investagrams.com and saves essential price-based data of Philippine Stock Exchange (PSE) listed companies locally in a comma separated value (CSV) file for personal consumption.
+GrabPSE runs a Python Script that scrapes data off Investagrams.com and saves essential price-based data of Philippine Stock Exchange (PSE) listed companies locally in a comma separated value (CSV) file for personal consumption only.
 
 # Getting Started
 Prerequisites
