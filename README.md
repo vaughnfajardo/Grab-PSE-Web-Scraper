@@ -1,5 +1,7 @@
 # GrabPSE
 
+October 2022 Update: The program has to be updated to reflect changes in the website. 
+
 GrabPSE runs a Python Script that scrapes data off Investagrams.com and saves essential price-based data of Philippine Stock Exchange (PSE) listed companies locally in a comma separated value (CSV) file for personal consumption ONLY. 
 
 # Getting Started
